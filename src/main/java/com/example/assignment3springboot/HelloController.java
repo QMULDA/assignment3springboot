@@ -13,6 +13,11 @@ public class HelloController {
         return plant.getScientificName();
     }
 
+    @GetMapping("/add")
+    public String add() {
+        return "";
+    }
+
 
     public class Plant{
         String scientificName;
